@@ -25,7 +25,7 @@ return {
       formatters = {
         xmllint = {
           command = "xmllint",
-          args = { "--format" },
+          args = { "--format", "-" },
         },
       },
     },
